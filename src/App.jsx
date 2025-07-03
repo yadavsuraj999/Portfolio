@@ -1,0 +1,17 @@
+import Header from "./components/Header"
+import 'remixicon/fonts/remixicon.css'
+import Hero from "./components/Hero"
+import About from "./components/About"
+
+
+const App = () => {
+  return (
+    <div className={`min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-opacity duration-500 'opacity-0' 'opacity-100`}>
+      <Header/>
+      <Hero/>
+      <About/>
+    </div>
+  )
+}
+
+export default App
