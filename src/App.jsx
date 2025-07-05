@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import 'remixicon/fonts/remixicon.css'
 import Hero from "./components/Hero"
 import About from "./components/About"
+import Skills from "./components/Skills"
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Header/>
       <Hero/>
       <About/>
+      <Skills/>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
+import Social from "./Social";
 
 const Hero = () => {
     const roles = [
@@ -48,7 +49,47 @@ const Hero = () => {
                                     </span>
                                 </div>
                             </div>
+                            <div className="flex flex-col items-center gap-0">
+                                <span className="flex items-center gap-2 px-4 py-1 hover:scale-105 transition-transform duration-200">
+                                    <span className="text-blue-600 dark:text-blue-400 text-xl cursor-pointer">
+                                        <i className="ri-phone-line"></i>
+                                    </span>
+                                    <span className="text-xl cursor-pointer text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+                                        +91 9574242726
+                                    </span>
+                                </span>
+                                <span className="flex items-center gap-2 px-4 py-1 hover:scale-105 transition-transform duration-200">
+                                    <span className="text-blue-600 dark:text-blue-400 text-xl cursor-pointer">
+                                        <i className="ri-mail-line"></i>
+                                    </span>
+                                    <span className="text-xl cursor-pointer text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+                                        yadavsuraj8425@gmail.com
+                                    </span>
+                                </span>
+                                <div className="flex items-center gap-2 px-4 py-1  transition-transform duration-200">
+                                    <span className="text-blue-600 dark:text-blue-400">
+                                        <i className="ri-map-pin-line"></i>
+                                    </span>
+                                    <span className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+                                        Surat India
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap gap-4 justify-center">
+                                <button className="flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base bg-blue-600 text-white hover:bg-blue-700 transition-transform duration-300 transform hover:scale-105">
+                                    <i className="ri-article-line"></i>
+                                    <span>
+                                        View Resume
+                                    </span>
+                                </button>
+                                <button className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base text-blue-600 dark:text-blue-400 border-2 border-blue-600 transition-transform duration-300 transform hover:scale-105">
+                                    <i className="ri-mail-line"></i>
+                                    <span>Contact Me</span>
+                                </button>
+                            </div>
+                                <Social />
                         </div>
+
                         <div className="relative order-1 md:order-2">
                             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse" />
                             <img

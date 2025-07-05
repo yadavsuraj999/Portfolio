@@ -25,6 +25,7 @@ const Header = () => {
             <img src="/images/logo.avif" alt="Logo" className="h-8 w-auto" />
           </div>
 
+          {/* Desktop Navigation */}
           <div className="hidden lg:flex space-x-5 items-center relative">
             {navLinks.map((link) => (
               <a
@@ -43,39 +44,47 @@ const Header = () => {
             </a>
           </div>
 
+          {/* Mobile Toggle Button */}
           <div className="flex lg:hidden items-center space-x-2">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
+              className="p-2 rounded-lg transition-all duration-500 ease-in-out bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
             >
-              <i className="ri-menu-line"></i>
+              <i
+                className={`ri-menu-line text-xl transform transition-transform duration-300 ease-in-out ${isOpen ? "rotate-90 scale-110" : ""
+                  }`}
+              ></i>
             </button>
           </div>
         </div>
 
-        {isOpen && (
-          <div className="lg:hidden bg-white/95 dark:bg-gray-900/95 rounded-b-xl shadow-lg">
-            <div className="px-4 pt-2 pb-3 space-y-1">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="block px-3 py-2 rounded-md text-sm text-center text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.label}
-                </a>
-              ))}
+        {/* Mobile Dropdown Menu */}
+        <div
+          className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out bg-white/95 dark:bg-gray-900/95 rounded-b-xl shadow-lg ${isOpen
+              ? "max-h-[1000px] opacity-100 scale-100"
+              : "max-h-0 opacity-0 scale-95"
+            }`}
+        >
+          <div className="px-4 pt-2 pb-3 space-y-1">
+            {navLinks.map((link) => (
               <a
-                href="#contact"
-                className="flex items-center justify-center gap-2 px-3 py-1.5 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 hover:text-white dark:text-white dark:hover:text-white"
+                key={link.href}
+                href={link.href}
+                className="block px-3 py-2 rounded-md text-sm text-center text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                 onClick={() => setIsOpen(false)}
               >
-                Request a Project
+                {link.label}
               </a>
-            </div>
+            ))}
+            <a
+              href="#contact"
+              className="flex items-center justify-center gap-2 px-3 py-1.5 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 hover:text-white dark:text-white dark:hover:text-white"
+              onClick={() => setIsOpen(false)}
+            >
+              Request a Project
+            </a>
           </div>
-        )}
+        </div>
       </nav>
     </div>
   );
