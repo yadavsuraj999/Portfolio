@@ -63,17 +63,17 @@ const skills = [
     },
     {
         name: "GitHub",
-        logo: "/images/github-original.svg",
+        logo: "https://img.icons8.com/m_sharp/200/FFFFFF/github.png",
         bgColor: "rgba(36, 41, 46, 0.1)",
     },
     {
         name: "Vite",
-        logo: "/images/vite-original.svg",
+        logo: "/images/Vite.js.svg",
         bgColor: "rgba(255, 215, 0, 0.1)",
     },
     {
         name: "Vercel",
-        logo: "/images/vercel-original.svg",
+        logo: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vercel.png",
         bgColor: "rgba(0, 0, 0, 0.05)",
     },
 ];

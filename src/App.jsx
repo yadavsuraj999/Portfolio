@@ -3,6 +3,8 @@ import 'remixicon/fonts/remixicon.css'
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import GitHub from "./components/GitHub"
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <Hero/>
       <About/>
       <Skills/>
+      <Projects/>
+      <GitHub/>
     </div>
   )
 }

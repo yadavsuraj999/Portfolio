@@ -9,7 +9,7 @@ const Navdetail = ({ title, des }) => {
                     {title}
                 </span>
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl font-medium">
+            <p className="text-lg mt-2 text-gray-600 dark:text-gray-300 max-w-3xl font-medium">
                 {des}
             </p>
             <Design />
