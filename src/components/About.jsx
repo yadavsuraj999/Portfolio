@@ -51,8 +51,8 @@ const About = () => {
                 <section id="about">
                     <div className="container mx-auto px-6">
                         <div className="mb-10 relative">
-                            <Navdetail title={"About Me"} des={"Passionate developer building innovative solutions and solving real-world problems."}/>
-                        </div>
+                            
+                        </div><Navdetail title={"About Me"} des={"Passionate developer building innovative solutions and solving real-world problems."}/>
                         <div className="max-w-5xl mx-auto mb-10 text-center">
                             <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                                 Hey there! 👋 I'm

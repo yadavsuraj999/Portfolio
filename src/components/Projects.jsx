@@ -45,10 +45,10 @@ const Projects = () => {
             />
           </div>
 
-          <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr">
             {project.map((item, index) => (
-              <div key={index} className="group relative">
-                <div className="relative bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 rounded-2xl shadow-lg overflow-hidden transition duration-300 hover:shadow-blue-500/10">
+              <div key={index} className="group relative h-full">
+                <div className="relative h-full flex flex-col bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 rounded-2xl shadow-lg overflow-hidden transition duration-300 hover:shadow-blue-500/10">
                   <div className="relative overflow-hidden p-4 pb-0">
                     <a href={item.live} target="_blank" rel="noopener noreferrer">
                       <img
@@ -58,7 +58,7 @@ const Projects = () => {
                       />
                     </a>
                   </div>
-                  <div className="p-6">
+                  <div className="p-6 flex flex-col flex-grow justify-between">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
                         {item.title}
@@ -72,8 +72,13 @@ const Projects = () => {
                         >
                           <i className={`${item.icon} text-xl text-gray-800 dark:text-white`}></i>
                         </a>
-                        <a href="" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-blue-600 hover:text-white transition-colors duration-300">
-                            <i className={`${item.icon2} text-xl text-gray-800 dark:text-white`}></i>
+                        <a
+                          href={item.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-blue-600 hover:text-white transition-colors duration-300"
+                        >
+                          <i className={`${item.icon2} text-xl text-gray-800 dark:text-white`}></i>
                         </a>
                       </div>
                     </div>

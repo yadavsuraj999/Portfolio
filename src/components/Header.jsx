@@ -9,10 +9,10 @@ const Header = () => {
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
     { href: "#github", label: "GitHub" },
-    { href: "#hackerrank", label: "Hackerrank" },
-    { href: "#badges", label: "Badges" },
+    // { href: "#hackerrank", label: "Hackerrank" },
+    // { href: "#badges", label: "Badges" },
     { href: "#blogs", label: "Blogs" },
-    { href: "#experience", label: "Experience" },
+    // { href: "#experience", label: "Experience" },
     { href: "#certifications", label: "Certifications" },
     { href: "#education", label: "Education" },
   ];
@@ -48,10 +48,10 @@ const Header = () => {
           <div className="flex lg:hidden items-center space-x-2">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg transition-all duration-500 ease-in-out bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
+              className="px-3 py-1 rounded-lg transition-all duration-500 ease-in-out bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
             >
               <i
-                className={`ri-menu-line text-xl transform transition-transform duration-300 ease-in-out ${isOpen ? "rotate-90 scale-110" : ""
+                className={`ri-menu-line text-xl text-green-500 transform transition-transform duration-300 ease-in-out ${isOpen ? "rotate-90 scale-110" : ""
                   }`}
               ></i>
             </button>

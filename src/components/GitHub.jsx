@@ -27,7 +27,7 @@ const GitHub = () => {
                     </div>
                     <div className="flex flex-col md:flex-row items-center justify-between bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-600 rounded-lg p-6 shadow-lg">
                         <div className="flex items-center space-x-4">
-                            <img src="/images/images.png" alt="" className="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-blue-600" />
+                            <img src="/images/20241129_165522-1.jpg" alt="" className="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-blue-600" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                                     Suraj Yadav
