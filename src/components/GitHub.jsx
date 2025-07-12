@@ -4,7 +4,7 @@ import Navdetail from "./Navdetail";
 const GitHub = () => {
     return (
         <div className="relative overflow-hidden py-16 bg-gradient-to-br from-gray-50 via-slate-100/80 to-blue-50/60 dark:from-black dark:via-gray-950/80 dark:to-slate-950/60">
-            <section>
+            <section id="github">
                 <div className="container mx-auto max-w-6xl px-8">
                     <div className="mb-10 relative">
                         <Navdetail

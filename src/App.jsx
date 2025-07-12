@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Certificate from "./components/Certificate"
 import Education from "./components/Education"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
       <Certificate/>
       <Education/>
       <Contact/>
-
+      <Footer/>
 
     </div>
   )

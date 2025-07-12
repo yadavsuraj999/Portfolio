@@ -6,8 +6,6 @@ const Hero = () => {
         "Full-Stack Developer",
         "DSA Enthusiast",
         "Problem Solver",
-        "Content Creator",
-        "Tech Innovator",
         "Lifelong Learner",
     ];
 
@@ -84,10 +82,10 @@ const Hero = () => {
                                         </span>
                                     </button>
                                 </a>
-                                <button className="  hover:text-blue-600 dark:hover:text-blue-400    flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base text-blue-600 dark:text-blue-400 border-2 border-blue-600 transition-transform duration-300 transform hover:scale-105">
+                                <a href="#contact" className="  hover:text-blue-600 dark:hover:text-blue-400    flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base text-blue-600 dark:text-blue-400 border-2 border-blue-600 transition-transform duration-300 transform hover:scale-105">
                                     <i className="ri-mail-line"></i>
                                     <span>Contact Me</span>
-                                </button>
+                                </a>
                             </div>
                             <Social />
                         </div>

@@ -81,7 +81,7 @@ const skills = [
 const Skills = () => {
     return (
         <div className="relative overflow-hidden py-16 bg-gradient-to-br from-gray-50 via-slate-100/80 to-blue-50/60 dark:from-black dark:via-gray-950/80 dark:to-slate-950/60">
-            <section>
+            <section id="skills">
                 <div className="container mx-auto px-6">
                     <div className="mb-10 relative ">
                         <Navdetail
