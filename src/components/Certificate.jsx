@@ -41,7 +41,7 @@ const Certificate = () => {
                             >
                                 {certificates.map((cert, idx) => (
                                     <SwiperSlide key={idx}>
-                                        <div className="bg-white dark:bg-[#1e1e1e] border border-gray-300 dark:border-[#8750f7] rounded-2xl p-4 shadow-lg h-full flex flex-col justify-between">
+                                        <div className="bg-white my-3 dark:bg-[#1e1e1e] border border-gray-300 dark:border-[#8750f7] rounded-2xl p-4 shadow-lg h-full flex flex-col justify-between">
                                             <div className="w-full h-60 sm:h-72 md:h-72 lg:h-80 overflow-hidden rounded-xl">
                                                 <a
                                                     href={cert.certificateImg}
