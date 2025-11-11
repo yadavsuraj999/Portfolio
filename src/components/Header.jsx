@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <div>
-      <nav className="fixed top-2 left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-6xl rounded-2xl bg-white/80 dark:bg-gray-900/80 backdrop-blur-md outline outline-1 outline-green-600">
+      <nav className="fixed top-2 left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-6xl rounded-2xl bg-white/80 dark:bg-gray-900/80 backdrop-blur-md outline outline-1 outline-blue-600">
         <div className="flex items-center justify-between h-12 px-4">
           <div className="cursor-pointer">
             <img src="/images/logo.avif" alt="Logo" className="h-8 w-auto" />

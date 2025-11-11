@@ -59,7 +59,7 @@ const About = () => {
                                 <span className="text-blue-600 font-semibold">
                                     Suraj Yadav
                                 </span>
-                                , a final-year B.Tech Computer Science Engineering student passionate about building full-stack web applications that solve real-world problems. I've created projects like NotesNeo for study notes, NeoCode for coding practice, and NeoCompiler for online code editing. With skills in React, Next.js, TypeScript, Node.js, and Java, I love exploring new technologies, solving DSA problems on LeetCode, and working on AI-powered solutions.
+                                , a Red and white student with a strong interest in full-stack web development. I enjoy building practical and scalable applications that make a real impact. Some of my projects include a Lab Management System, Advanced To-Do Web App, and an Employee Management System. I’m skilled in React, Redux, Node.js, and Javascript, and I’m always eager to learn new technologies, improve my problem-solving skills on platforms like HackerRank, and explore AI-driven solutions.
                             </p>
                             <div className="mt-6 flex justify-center">
                                 <span className="text-sm sm:text-base inline-block bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-4 py-2 rounded-lg shadow">

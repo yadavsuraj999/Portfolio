@@ -3,32 +3,32 @@ import Navdetail from "./Navdetail";
 const Projects = () => {
   const project = [
     {
-      title: "NotesNeo",
+      title: "Lab-Management-System",
       description:
-        "Built this because I was tired of hunting for notes everywhere! A platform where students can actually find and share quality notes by subject. No more 'does anyone have notes?' in group chats 😄",
-      image: "/images/vision-ideas-creative-project-selection-600nw-2000850218.webp",
-      github: "https://github.com/yourusername/notesneo",
-      live: "https://notesneo.app",
+        "A web-based application for managing computer labs. It allows administrators to assign PCs to students and perform full CRUD operations on student and system data. The project includes a dashboard that provides an overview of lab details such as assigned systems, available PCs, and student information.",
+      image: "/images/Project1.png",
+      github: "https://github.com/yadavsuraj999/Pr-lab-management-system",
+      live: "https://pr-lab-management-system.vercel.app",
       icon: "ri-github-fill",
       icon2: "ri-share-circle-line"
     },
     {
-      title: "TaskMate",
+      title: "To-Do-List",
       description:
-        "A clean, minimal task manager app to help you stay productive and focused. Add, delete, and mark tasks as complete — built with React and localStorage.",
-      image: "/images/vision-ideas-creative-project-selection-600nw-2000850218.webp",
-      github: "https://github.com/yourusername/taskmate",
-      live: "https://taskmate.app",
+        "A web-based application developed using React and Redux Thunk that allows multiple users to register and manage their personal task lists. It supports complete CRUD operations for adding, updating, deleting, and tracking tasks. The system includes secure authentication, a responsive interface, and real-time state management for a smooth and efficient user experience.",
+      image: "/images/Project2.png",
+      github: "https://github.com/yadavsuraj999/Pr-to-do-firebase",
+      live: "https://pr-to-do-firebase.vercel.app",
       icon: "ri-github-fill",
       icon2: "ri-share-circle-line"
     },
     {
-      title: "WeatherScope",
+      title: "Employee-Management-System",
       description:
-        "Check real-time weather updates anywhere in the world with WeatherScope. Made with OpenWeatherMap API and responsive design for all devices.",
-      image: "/images/vision-ideas-creative-project-selection-600nw-2000850218.webp",
-      github: "https://github.com/yourusername/weatherscope",
-      live: "https://weatherscope.app",
+        "A web-based application built with React that manages employee details, departments, and salary records. It supports full CRUD operations and provides sorting features based on employee name and department, offering an organized and efficient way to handle workforce information and improve administrative tasks.",
+      image: "/images/Project3.png",
+      github: "https://github.com/yadavsuraj999/project-student-management-react",
+      live: "https://project-student-management-react.vercel.app/",
       icon: "ri-github-fill",
       icon2: "ri-share-circle-line"
     }

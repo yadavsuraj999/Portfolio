@@ -10,7 +10,7 @@ const Education = () => {
         },
         {
             title: "Full Stack Developer",
-            name: "Gurukrupa Vidhya Sankul",
+            name: "Red & White Skill Education",
             date: "2024 - ongoing"
         },
     ]

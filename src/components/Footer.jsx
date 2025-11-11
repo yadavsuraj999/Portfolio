@@ -1,6 +1,8 @@
 import Social from "./Social"
 
 const Footer = () => {
+
+  const year = new Date().getFullYear()
   return (
     <footer className="relative bg-gradient-to-br from-gray-50 via-slate-100/80 to-blue-50/60 dark:from-black dark:via-gray-950/80 dark:to-slate-950/60 border-t border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-6 py-8 relative">
@@ -9,7 +11,7 @@ const Footer = () => {
           <Social />
           <div className="text-sm text-gray-500 dark:text-gray-400 text-center">
             <p className="pb-2">
-              © 2025 Suraj Yadav. All rights reserved.
+              © {year} Suraj Yadav. All rights reserved.
             </p>
             <p className="flex items-center justify-center gap-2">
                 Built With
