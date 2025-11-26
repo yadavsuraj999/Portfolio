@@ -55,7 +55,7 @@ const About = () => {
                         </div><Navdetail title={"About Me"} des={"Passionate developer building innovative solutions and solving real-world problems."}/>
                         <div className="max-w-5xl mx-auto mb-10 text-center">
                             <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                                Hey there! 👋 I'm
+                                Hey there! <span className="inline-block origin-[70%_70%] animate-pulse">👋</span> I'm {" "}
                                 <span className="text-blue-600 font-semibold">
                                     Suraj Yadav
                                 </span>

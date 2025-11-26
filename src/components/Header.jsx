@@ -11,7 +11,7 @@ const Header = () => {
     { href: "#github", label: "GitHub" },
     // { href: "#hackerrank", label: "Hackerrank" },
     // { href: "#badges", label: "Badges" },
-    { href: "#blogs", label: "Blogs" },
+    // { href: "#blogs", label: "Blogs" },
     // { href: "#experience", label: "Experience" },
     { href: "#certifications", label: "Certifications" },
     { href: "#education", label: "Education" },

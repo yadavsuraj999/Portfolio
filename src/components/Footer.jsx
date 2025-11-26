@@ -15,9 +15,9 @@ const Footer = () => {
             </p>
             <p className="flex items-center justify-center gap-2">
                 Built With
-                 <img src="/images/react-original (1).svg" alt="" className="w-6 h-6"/>
+                 <img src="/images/react-original (1).svg" alt="" className="w-6 h-6 animate-spin"/>
                   Using
-                  <img src="/images/Vite.js.svg" alt="" className="w-6 h-6"/>
+                  <img src="/images/Vite.js.svg" alt="" className="w-6 h-6 "/>
             </p>
           </div>
         </div>

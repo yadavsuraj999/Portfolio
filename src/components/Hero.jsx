@@ -27,7 +27,7 @@ const Hero = () => {
                         <div className="flex flex-col items-center justify-center text-center space-y-4 order-2 md:order-1">
                             <div className="space-y-2">
                                 <div className="inline-block bg-blue-100 dark:bg-blue-900/50 backdrop-blur-sm text-blue-600 dark:text-blue-300 text-sm font-medium px-4 py-2 rounded-full">
-                                    Hey! <span className="inline-block origin-[70%_70%] animate-wave">👋</span> I'm
+                                    Hey! <span className="inline-block origin-[70%_70%] animate-pulse">👋</span> I'm
                                 </div>
                                 <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent animate-gradient">
                                     Suraj Yadav
@@ -74,7 +74,7 @@ const Hero = () => {
                                 </div>
                             </div>
                             <div className="flex flex-wrap gap-4 justify-center">
-                                <a href="/images/Suraj Yadav (2) (1).pdf" target="_blank">
+                                <a href="/images/Suraj's-Resume.pdf" target="_blank">
                                     <button className="flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base bg-blue-600 text-white hover:bg-blue-700 transition-transform duration-300 transform hover:scale-105">
                                         <i className="ri-article-line"></i>
                                         <span>
