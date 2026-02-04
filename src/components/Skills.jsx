@@ -31,21 +31,21 @@ const skills = [
         logo: "/images/redux-original.svg",
         bgColor: "rgba(118, 74, 188, 0.1)",
     },
-    // {
-    //     name: "Node.js",
-    //     logo: "/images/nodejs-plain.svg",
-    //     bgColor: "rgba(100, 181, 135, 0.1)",
-    // },
-    // {
-    //     name: "ExpressJS",
-    //     logo: "/images/express-original.svg",
-    //     bgColor: "rgba(64, 64, 64, 0.1)",
-    // },
-    // {
-    //     name: "MongoDB",
-    //     logo: "/images/mongodb-plain.svg",
-    //     bgColor: "rgba(71, 171, 106, 0.1)",
-    // },
+    {
+        name: "Node.js",
+        logo: "/images/nodejs-plain.svg",
+        bgColor: "rgba(100, 181, 135, 0.1)",
+    },
+    {
+        name: "ExpressJS",
+        logo: "/images/express-original.svg",
+        bgColor: "rgba(64, 64, 64, 0.1)",
+    },
+    {
+        name: "MongoDB",
+        logo: "/images/mongodb-plain.svg",
+        bgColor: "rgba(71, 171, 106, 0.1)",
+    },
     {
         name: "C++",
         logo: "/images/cplusplus-plain.svg",
