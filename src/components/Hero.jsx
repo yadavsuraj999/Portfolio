@@ -74,7 +74,7 @@ const Hero = () => {
                                 </div>
                             </div>
                             <div className="flex flex-wrap gap-4 justify-center">
-                                <a href="/images/Suraj's-Resume.pdf" target="_blank">
+                                <a href="/images/SurajYadav-Resume.pdf" target="_blank">
                                     <button className="flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base bg-blue-600 text-white hover:bg-blue-700 transition-transform duration-300 transform hover:scale-105">
                                         <i className="ri-article-line"></i>
                                         <span>
